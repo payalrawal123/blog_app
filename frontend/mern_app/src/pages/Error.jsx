@@ -1,10 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Error() {
   return (
-    <div>
-      
+    <secction className="error-page">
+
+    <div className='center'>
+      <Link to='/' className='btn primary'>go back home</Link>
+    <h2>page Not Found</h2>
     </div>
+    </secction>
   )
 }
 
