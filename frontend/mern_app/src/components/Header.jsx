@@ -14,7 +14,8 @@ const Header = () => {
                 <li><Link to='/profile'>Ernest Achiever</Link></li>
                 <li><Link to='/create'>Create Post</Link></li>
                 <li><Link to='/authors'>Authors</Link></li>
-                <li><Link to='/logout'>Logout</Link></li>
+                <li><Link to='/login'>Login</Link></li>
+                <li><Link to='/register'>Register</Link></li>
 
             </ul>
             {/* <FaBars /> */}

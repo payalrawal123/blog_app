@@ -17,12 +17,12 @@ import Authors from './pages/Authors'
 import Login from './pages/Login'
 import Header from './components/Header'
 
-function App() {
+function Navlink() {
   return (
     <>
     {/* <Header/> */}
     
-    <Router>
+  
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -40,9 +40,9 @@ function App() {
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-    </Router>
+    
     </>
   )
 }
 
-export default App
+export default Navlink;
